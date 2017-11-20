@@ -37,3 +37,5 @@ arquivo entre clientes, deve ter a intervenção do servidor.
 5. Se for aceite, recebe mensagens dos clientes, verifica se são mensagens para todos ou apenas para um deles, e envia a mensagem para o/os destino/os.
 6. Mudar de _nick_. O servidor deve, se não houver nenhum cliente com aquele _nickname_, atualizar a sua base de dados com o novo _nick_. Note-se que em cada cliente, quando aparece uma mensagem de um outro cliente, deve ser indicado o _nick_ desse cliente.
 7. Desligar o cliente. Servidor recebe mensagem de fim de conexão e atualiza a sua base de dados.
+#### Referências
+[zaneacademy - JAVA RMI (02 - chat application tutorial) [YouTube]](https://youtu.be/Djf89MG7CcA)

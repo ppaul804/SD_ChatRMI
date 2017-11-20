@@ -3,10 +3,10 @@ echo Certifique-se que limpou e construiu o projeto no NetBeans (Shift+F11) para
 pause
 cd build\classes
 
-IF EXIST *.class (
-		echo %cd% rmic rmic *Impl.class
+IF EXIST comum (
+		echo %cd% rmic comum.MensageiroImpl
 		echo.
-		rmic rmic *Impl.class
+		rmic comum.MensageiroImpl
     ) ELSE (
 		@echo Volta no NetBeans e aperta Shift+F11!
 		pause

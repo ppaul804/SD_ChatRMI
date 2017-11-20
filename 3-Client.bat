@@ -1,6 +1,6 @@
 @echo off
 color 3e
-title Client
+title Cliente
 cd build\classes
-echo java Client
+echo java cliente.MensageiroCliente
 cmd 

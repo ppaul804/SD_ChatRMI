@@ -1,6 +1,6 @@
 @echo off
 color 1f
-title Server
+title Servidor
 cd build\classes
-echo java Server
+echo java servidor.MensageiroServidor
 cmd 

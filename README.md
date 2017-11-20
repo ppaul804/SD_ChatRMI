@@ -1,4 +1,13 @@
 # Sistema de Chat com Java RMI
+## Instruções
+#### Windows
+Como foi utilizado o [NetBeans](http://www.oracle.com/technetwork/articles/javase/jdk-netbeans-jsp-142931.html) para construir o projeto, será necessário usá-lo para estas instruções surtirem efeito.
+1. Faça o download do projeto
+2. Compile os aquivos .java _[Shift+F11 (Limpar e Construir Projeto) no NetBeans]_
+3. Execute o `1-rmiregistry.bat` para usar o `rmic` e o `rmiregistry`
+4. Execute o `2-Server.bat`
+5. Execute o `3-Client.bat`
+
 ### Objetivo:
 Pretende-se com este trabalho desenvolver um sistema de chat (tipo [IRC](https://www.google.com/search?q=irc)) que, além de permitir o envio e recepção de mensagens entre os usuários conectados num grupo, permite também o envio e recepção de arquivos.
 #### Sumário das funcionalidades:
@@ -37,5 +46,3 @@ arquivo entre clientes, deve ter a intervenção do servidor.
 5. Se for aceite, recebe mensagens dos clientes, verifica se são mensagens para todos ou apenas para um deles, e envia a mensagem para o/os destino/os.
 6. Mudar de _nick_. O servidor deve, se não houver nenhum cliente com aquele _nickname_, atualizar a sua base de dados com o novo _nick_. Note-se que em cada cliente, quando aparece uma mensagem de um outro cliente, deve ser indicado o _nick_ desse cliente.
 7. Desligar o cliente. Servidor recebe mensagem de fim de conexão e atualiza a sua base de dados.
-#### Referências
-[zaneacademy - JAVA RMI (02 - chat application tutorial) [YouTube]](https://youtu.be/Djf89MG7CcA)

@@ -6,7 +6,7 @@ import java.rmi.server.UnicastRemoteObject;
 
 public class MensageiroImpl extends UnicastRemoteObject implements Mensageiro {
     private static String SERVIDOR = "localhost";
-    private static Integer PORTA = 1099;
+    private final static Integer PORTA = 1099;
     private static String SERVICO = "ServicoMensagens";
     
     private String msgRecebida = "Sem mensagem";
@@ -27,6 +27,6 @@ public class MensageiroImpl extends UnicastRemoteObject implements Mensageiro {
     
     public String lerMensagem() throws RemoteException {
         return msgRecebida;
-    }        
+    }
     
 }
